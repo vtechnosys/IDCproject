@@ -1,0 +1,173 @@
+
+
+.containers { 
+	position: relative; 
+background:#000;
+}
+ 
+#filters {
+	margin:1%;
+	padding:0;
+	list-style:none;
+}
+
+	#filters li {
+		float:left;
+	}
+	
+	#filters li span {
+		display: block;
+		padding:5px 20px;		
+		text-decoration:none;
+		color:#666;
+		cursor: pointer; 
+		font:400 13px lato;
+	}
+	
+	#filters li span.active, #filters li span:hover {
+		background: #F76B01;
+		color:#fff;
+		border-radius:0 100%;
+		-o-border-radius:0 100%;
+		-ms-border-radius:0 100%;
+		-moz-border-radius:0 100%;
+
+
+		-o-transition:background 0.5s linear 0.1s;
+		-ms-transition:background 0.5s linear 0.1s;
+		-moz-transition:background 0.5s linear 0.1s;
+		-webkit-transition:background 0.5s linear 0.1s;
+		transition:background 0.5s linear 0.1s;
+	}
+ 
+
+ 
+#portfoliolist .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	width:23%;
+	margin:1%;
+	display:none;
+	float:left;
+	overflow:hidden;
+border: 2px solid #BCBCBC;
+    box-shadow: 0 3px 4px #7F7F7F;
+	-webkit-box-shadow: 0 3px 4px #7F7F7F;
+	-moz-box-shadow: 0 3px 4px #7F7F7F;
+	-o-box-shadow: 0 3px 4px #7F7F7F;
+	-ms-box-shadow: 0 3px 4px #7F7F7F;
+}
+	.portfolio-wrapper {
+		overflow:hidden;
+		position: relative !important;
+		cursor:pointer;
+	}
+
+.portfolio img {
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+    width: 168px;
+}
+	
+	.portfolio .label {
+		position: absolute;
+		width: 100%;
+		height:40px;
+		bottom:-40px;
+	}
+
+		.portfolio .label-bg {
+			background: #F76B01;
+			width: 100%;
+			height:100%;
+			position: absolute;
+			top:0;
+			left:0;
+		}
+	
+		.portfolio .label-text {
+			color:#fff;
+			position: relative;
+			z-index:500;
+			padding:5px 8px; 
+		}
+			
+			.portfolio .text-category {
+				display:block;
+				font-size:9px;
+			}
+	
+	
+	
+
+
+
+/* #Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.containers {
+		width: 768px; 
+	}
+}
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+	.containers{ 
+		width: 95%; 
+	}
+	
+	#portfoliolist .portfolio {
+		width:48%;
+		margin:1%;
+	}		
+
+	#ads {
+		display:none;
+	}
+	
+}
+
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.containers {
+		width: 70%;
+	}
+	
+	#ads {
+		display:none;
+	}
+	
+}
+
+/* #Clearing */
+
+/* Self Clearing Goodness */
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+.row,
+.clearfix {
+  zoom: 1; }
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

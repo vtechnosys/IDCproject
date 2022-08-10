@@ -1,0 +1,10 @@
+User-agent:*
+Disallow:/protected/
+Disallow:/assets/
+Disallow:/css/
+Disallow:/images/
+Disallow:/img/
+Disallow:/admin.php
+Disallow:/themes
+allow:/themes/vertex/
+Disallow:/index.php

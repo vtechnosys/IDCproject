@@ -1,0 +1,82 @@
+
+
+
+
+
+
+a:hover {
+	text-decoration: none;
+	color:#F76B01 !important;
+}
+
+a img {
+	border: none;
+}
+
+
+
+ul.style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	padding: 10px 0px 10px 0px;
+	border-top: 1px solid #CFCFCF;
+}
+
+ul.style1 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+/** BANNER */
+
+#banner
+{
+	padding: 30px 0px 0px 0px;
+	
+}
+
+
+
+
+#sliders
+{
+	position: relative;
+		width: 255px; background:url(../images/M-port.png) 0 0 no-repeat; height:204px;
+	margin:0 auto
+}
+
+	#sliders .viewer
+	{  top:4px; left:3px;
+		width: 249px;
+		height: 160px;
+		overflow: hidden;
+	}
+
+		#sliders .viewer .reel
+		{
+			display: none;
+		height: 500px;
+		}
+
+		#sliders .viewer .reel .slide
+		{
+			position: relative;
+			width: 249px;
+			height: 148px; left:0;
+		}
+		#sliders .viewer .reel .slide h5
+		{ background:#000; color:#fff;
+			position: relative; top:-29px;
+			width: 240px; height:29px; line-height:29px; left:0px; padding-left:10px;
+		
+		}
+		
+		
+		
+		
+		
+		
